@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tgen"
+name = "TgeN"
 version = "0.0.1"
 description = "Creation of templates for various projects"
 authors = ["wappon-28-dev <wappon_28_dev@ruru.be>"]
