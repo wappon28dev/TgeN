@@ -1,0 +1,29 @@
+{
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length", "119"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "python.linting.flake8Args": [
+    "--max-line-length=119",
+    "--ignore=E203,E266,E501,W503",
+    "--max-complexity=18",
+    "--select=B,C,E,F,W,T4,B9"
+  ],
+  "cSpell.words": ["termcolor", "tqdm"],
+  "python.analysis.typeCheckingMode": "strict",
+  "python.analysis.stubPath": "./typings",
+  "python.analysis.autoImportCompletions": false,
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnboundVariable": "error",
+    "reportMissingModuleSource": "information",
+    "reportMissingTypeStubs": "information",
+    "reportInvalidStringEscapeSequence": "information",
+    "reportTypedDictNotRequiredAccess": "warning"
+  }
+}

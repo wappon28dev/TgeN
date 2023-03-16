@@ -1,0 +1,66 @@
+{
+  "en": {
+    "dirCalledWith": {
+      "directory": "directory",
+      "folder": "folder"
+    },
+    "templates": {
+      "artifacts": {
+        "name": "artifacts",
+        "description": "{dir} for completed files"
+      },
+      "assets": {
+        "name": "assets",
+        "description": "{dir} for material"
+      },
+      "branch": {
+        "name": "branch",
+        "description": "{dir} for branches"
+      },
+      "old": {
+        "name": "old",
+        "description": "{dir} for old files"
+      },
+      "test": {
+        "name": "test",
+        "description": "{dir} for testing"
+      },
+      "work": {
+        "name": "work",
+        "description": "{dir} for work"
+      }
+    }
+  },
+  "ja": {
+    "dirCalledWith": {
+      "directory": "ディレクトリ",
+      "folder": "フォルダー"
+    },
+    "templates": {
+      "artifacts": {
+        "name": "完成",
+        "description": "完成したファイルを入れる{dir}"
+      },
+      "assets": {
+        "name": "素材",
+        "description": "素材を入れる{dir}"
+      },
+      "branch": {
+        "name": "分岐",
+        "description": "分岐させたい時に使う{dir}"
+      },
+      "old": {
+        "name": "バックアップ",
+        "description": "古いファイルを入れる{dir}"
+      },
+      "test": {
+        "name": "テスト",
+        "description": "テスト用の{dir}"
+      },
+      "work": {
+        "name": "作業",
+        "description": "作業用の{dir}"
+      }
+    }
+  }
+}
