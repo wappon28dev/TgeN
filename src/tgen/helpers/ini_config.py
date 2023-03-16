@@ -1,7 +1,7 @@
 import os
 
-from helpers.manifest import Langs, Manifest, Template
-from helpers.utils import Utils
+from .manifest import Langs, Manifest, Template
+from .utils import Utils
 
 
 class IniConfig:

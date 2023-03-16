@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "tgen"
+version = "0.0.1"
+description = "Creation of templates for various projects"
+authors = ["wappon-28-dev <wappon_28_dev@ruru.be>"]
+readme = "README.md"
+packages = [{ include = "tgen", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+questionary = "^1.10.0"
+tqdm = "^4.65.0"
+termcolor = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "TgeN"
+version = "0.0.1"
+dependencies = ["questionary", "tqdm", "termcolor"]
+
+[tool.poetry.scripts]
+tgen = "tgen.main:main"
+tn = "tgen.main:main"

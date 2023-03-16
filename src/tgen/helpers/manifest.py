@@ -3,7 +3,7 @@ import os
 from enum import Enum
 from typing import List, NamedTuple, TypedDict
 
-from helpers.utils import Utils
+from .utils import Utils
 
 
 class Langs(Enum):

@@ -3,10 +3,11 @@ import subprocess
 from typing import Any
 
 import questionary
-from helpers.creation import Creation
-from helpers.manifest import Langs, Manifest
-from helpers.utils import Utils
 from termcolor import colored
+
+from .helpers.creation import Creation
+from .helpers.manifest import Langs, Manifest
+from .helpers.utils import Utils
 
 version: str = "0.0.1"
 
@@ -127,3 +128,7 @@ def main() -> None:
 
     print(colored("\ndone / 完了", "green"))
     subprocess.Popen(["explorer", target_path], shell=True)
+
+
+if __name__ == "__main__":
+    main()

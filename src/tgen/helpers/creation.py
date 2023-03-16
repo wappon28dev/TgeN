@@ -2,8 +2,8 @@ import os
 
 from tqdm import tqdm
 
-from helpers.ini_config import IniConfig
-from helpers.manifest import Manifest
+from .ini_config import IniConfig
+from .manifest import Manifest
 
 
 class Creation:
