@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "TgeN"
-version = "0.0.1"
+version = "0.0.2"
 description = "Creation of templates for various projects"
-authors = ["wappon-28-dev <wappon_28_dev@ruru.be>"]
+authors = ["wappon28dev <wappon_28_dev@ruru.be>"]
 readme = "README.md"
 packages = [{ include = "tgen", from = "src" }]
 
@@ -11,7 +11,6 @@ python = "^3.11"
 questionary = "^1.10.0"
 tqdm = "^4.65.0"
 termcolor = "^2.2.0"
-
 
 [build-system]
 requires = ["poetry-core"]

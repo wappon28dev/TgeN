@@ -23,7 +23,7 @@ class IniConfig:
         )
 
         if os.name != "nt":
-            raise ("This script is only for Windows / このスクリプトはWindowsのみ対応しています")
+            raise RuntimeError("This script is only for Windows / このスクリプトはWindowsのみ対応しています")
 
     def _get_new_config(self) -> str:
         icon_path = os.path.join(
@@ -48,9 +48,9 @@ class IniConfig:
     def write(self) -> None:
         file = open(self.desktop_ini_path, "x", encoding="shift-jis")
         file.write(self._get_new_config())
-        os.system(f"attrib +s +h {self.desktop_ini_path}")
+        os.system(f"attrib +s +h \"{self.desktop_ini_path}\"")
         file.close()
 
     def apply(self, key: str) -> None:
         os.chdir(os.path.join(self.target_path))
-        os.system(f"attrib +s {key}")
+        os.system(f"attrib +s \"{key}\"")
