@@ -13,7 +13,7 @@ Creation of templates for various projects / 色々なプロジェクト用の�
 ## Install / インストール
 
 ``` bash
-$ pip install git+https://github.com/wappon-28-dev/TgeN.git
+$ pip install git+https://github.com/wappon28dev/TgeN.git
 ```
 
 ## Usage / 使い方
