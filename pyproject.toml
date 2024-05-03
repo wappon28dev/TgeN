@@ -9,7 +9,7 @@ packages = [{ include = "tgen", from = "src" }]
 [tool.poetry.dependencies]
 python = "^3.11"
 questionary = "^1.10.0"
-tqdm = "^4.65.0"
+tqdm = "^4.66.3"
 termcolor = "^2.2.0"
 
 [build-system]
